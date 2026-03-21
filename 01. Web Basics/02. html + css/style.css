@@ -1,0 +1,13 @@
+body {
+  font-family: DIN, sans-serif;
+  padding: 20px;
+}
+
+.title {
+  color: blue;
+}
+
+button {
+  background-color: lightgray;
+  padding: 10px;
+}
