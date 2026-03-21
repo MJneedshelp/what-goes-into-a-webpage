@@ -1,0 +1,16 @@
+.container 
+{
+    display: flex;
+    justify-content: center;
+    /* align-items: bottom; */
+    /* margin-top: 100; */
+    margin: 1000;
+    padding: 100;
+}
+
+button
+{
+    color: blueviolet;
+    background-color: aqua;
+    outline-color: chocolate;
+}

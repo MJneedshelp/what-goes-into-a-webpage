@@ -5,9 +5,20 @@ body {
 
 .title {
   color: blue;
+  flex: auto;
+}
+
+.container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
 }
 
 button {
   background-color: lightgray;
   padding: 10px;
+}
+
+#testPara {
+  color: red;
 }
