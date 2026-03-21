@@ -1,10 +1,29 @@
-const form = document.getElementById("LoginForm")
+const form = document.getElementById("LoginForm");
+const username = document.getElementById("username");
+const password = document.getElementById("password");
+
 const button = document.getElementById("btn");
 const resultMsg = document.getElementById("result");
 
-button.addEventListener("click", function (event) 
+
+form.addEventListener("submit", (e) =>
+{
+    
+    e.preventDefault();
+    const username = username.value;
+    const password = password.value
+
+    if (!username)
     {
-        event.preventDefault();
-        resultMsg.innerText = "Loading...";
+        resultMsg.innerText = "Username required";
     }
-);
+    else if (!password)
+    {
+        resultMsg.innerText = "Password required";
+    }
+    else
+    {
+        resultMsg.innerText = "Success";
+    }
+
+});
