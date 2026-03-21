@@ -4,7 +4,7 @@
         <title>Login Page</title>
         <link rel="stylesheet" href="styling.css">
     </head>
-    <body class="container">
+    <body>
         <h1>Login</h1>
         <form id="LoginForm">
             <label for="username">Username:</label>
@@ -13,7 +13,11 @@
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required placeholder="Password"/>
             <br /><br />
-            <button type="submit">Login</button>
+            <button id="btn" type="submit">Login</button>
         </form>
+        
+        <p id="result"></p>
+
+        <script src="script.js"></script>
     </body>
 </html> 
